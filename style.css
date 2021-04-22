@@ -1,0 +1,55 @@
+/* design world */
+
+body {
+    background-image: url("images/UFO-portrait.png");
+    background-size: cover;
+    color: #fff;
+    max-width: 750px;
+    padding-left: 60px;
+}
+
+img {
+    max-width: 600px;
+}
+
+h1 {
+    font-style: italic;
+    color: #fff;
+}
+
+.h1img {
+    height:40px;
+}
+
+h2 {
+    font-style: italic;
+    color: red;
+    padding: 10px;
+}
+
+ul {
+    color: #ff8f8f;
+}
+
+a {
+    color: #2baeff;
+}
+
+marquee {
+    border: solid;
+    border-color: red;
+    width: 70vw;
+}
+
+blockquote {
+    font-family: Garamond, serif;
+    font-style: italic;
+}
+
+#hashExpand {
+    display: none;
+}
+
+#hashExpand:target {
+    display: block;
+}
