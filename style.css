@@ -1,7 +1,7 @@
 /* design world */
 
 body {
-    background-image: url("images/UFO-portrait.png");
+    background-image: url("img/UFO-portrait.png");
     background-size: cover;
     color: #fff;
     max-width: 750px;
@@ -53,3 +53,29 @@ blockquote {
 #hashExpand:target {
     display: block;
 }
+
+
+
+/* Navigation */
+
+nav{
+    height: 9rem;
+}
+
+/*this is for an ul*/
+.nav-list{
+    display: flex;
+}
+
+.nav-name{
+    font-size: 1.1rem;
+}
+
+.hover-img{}
+
+#icon-home{
+    
+    font-size: 1.1rem;
+    max-width: 100px;
+}
+
