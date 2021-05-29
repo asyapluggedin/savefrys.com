@@ -1,11 +1,52 @@
 /* design world */
 
 body {
-    background-image: url("img/UFO-portrait.png");
+    background-image: url("img/plasticbag.png");
+    background-color: black;
     background-size: cover;
-    color: #fff;
-    max-width: 750px;
-    padding-left: 60px;
+    color: #000;
+    margin: 0;
+
+}
+
+#mainContainer{
+    width:1000px;
+    margin:auto;
+        background-color: rgba(255,255,255,0.8);
+
+    -webkit-box-shadow: 
+        1em 0 1em -1em #ccc,
+        -1em 0 1em -1em #ccc;
+    box-shadow: 
+        1em 0 1em -1em #ccc,
+        -1em 0 1em -1em #ccc;
+        
+}
+#pageHeader{
+    height:125px;
+    
+}
+
+marquee {
+    border: solid;
+    border-color: red;
+    background-color: #eee;
+    max-width: 450px;
+    max-height: 50px;
+        margin: auto;
+}
+
+
+.center {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.element {
+    max-width: 70vw;
+    padding: 10px;
+
+
 }
 
 img {
@@ -13,12 +54,17 @@ img {
 }
 
 h1 {
-    font-style: italic;
-    color: #fff;
+    color: red;
+    font-family: 'a_love_of_thunderregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:3em;
 }
 
+h1 a {text-decoration: none;}
+
 .h1img {
-    height:40px;
+    height: 40px;
 }
 
 h2 {
@@ -35,11 +81,6 @@ a {
     color: #2baeff;
 }
 
-marquee {
-    border: solid;
-    border-color: red;
-    width: 70vw;
-}
 
 blockquote {
     font-family: Garamond, serif;
@@ -58,24 +99,51 @@ blockquote {
 
 /* Navigation */
 
-nav{
+nav {
     height: 9rem;
 }
 
 /*this is for an ul*/
-.nav-list{
+.nav-list {
     display: flex;
 }
 
-.nav-name{
+.nav-name {
     font-size: 1.1rem;
 }
 
-.hover-img{}
+.hover-img {}
 
-#icon-home{
-    
+#icon-home {
+
     font-size: 1.1rem;
     max-width: 100px;
 }
 
+
+/* Draggable elements */
+
+.drag {
+    width: 600px;
+    height: 600px;
+    cursor: move;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}

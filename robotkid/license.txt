@@ -1,0 +1,11 @@
+Model Information:
+* title:	R.I.P Frys!
+* source:	https://sketchfab.com/3d-models/rip-frys-162eeef6095343ec8b3f6b0bdf0f8471
+* author:	robotkid (https://sketchfab.com/robotkid)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "R.I.P Frys!" (https://sketchfab.com/3d-models/rip-frys-162eeef6095343ec8b3f6b0bdf0f8471) by robotkid (https://sketchfab.com/robotkid) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

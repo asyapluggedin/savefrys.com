@@ -8,54 +8,68 @@
 
     <title>Save Frys</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts.css" />
+
+
+
+    <script type="text/javascript" src="normal.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
 </head>
 
 <body>
-    <marquee>
-        <h1><b>Welcome to Save <img class="h1img" src="img/logo-1200.png" alt="Frys Logo"> .com</b></h1>
-    </marquee>
+    <div id="mainContainer">
+        <div id="pageHeader">
 
-    <nav>
-        <ul class="nav-list">
-            <li>
-                <img src="img/icon-eth.png" id="icon-home" alt="Ethereum Wallet icon" />
-                <h2 class="nav-name"><a href="./index.html" class="hover-img">SaveFrys.eth</a></h2>
-            </li>
-        </ul>
+            <div id="fryslogo"><a href="https://savefrys.com/"><img src="img/fryslogo.png"></a></div>
+            <a href="https://savefrys.com/"><h1>SAVEFRYS.COM</h1></a>
+            <p>
+                <marquee>
+                    <b>Welcome to Save <img class="h1img" src="img/logo-1200.png" alt="Frys Logo"> .com</b>
+                </marquee>
+            </p>
 
-    </nav>
+        </div>
 
-    <p>donate at <a href="https://etherscan.io/address/savefrys.eth">savefrys.eth</a></p>
-    <p>join our <a href="https://discord.gg/QyC92Q3kKj">discord</a></p>
-    <div>
-        <strong>FAQ:</strong><br />
-        About who we are: <br /> i am just a person who wants to preserve the cultural heritage of Fry’s Electronics. There is a community on <a href="https://discord.gg/QyC92Q3kKj">discord</a></span></p> that supports this goal and is helping with the process as well. We are just people who loved Fry's.
-        <br /><br />
-        <u>What is Fry's:</u> <br /> Fry's Electronics <strike>is</strike> <em>was</em> an iconic electronics store from the 90s that recently closed<br /><br />
-        <u>What are we saving:</u> <br /> the goal right now is to raise enough money to take the UFO off of the burbank Fry's building (aka store #11) and rescue it and put it somewhere safe as an iconic peice of LA history. If we can save other Fry's marketing and branding material we will, the goal is to attend the firesale auctions and pick up whatever we can afford<br /><br />
-        What will we do with the money if we can't accomplish our goal: <br /> for now I am keeping it very simple and linking an etherium wallet that I simply have available. If for whatever reason we cannot use the money to save Fry's cultural heritage we'll either send it back or pay it forward to a charity. I don't know right now how to be accountable for that except for the fact that everything is on the blockchain so it should be fairly easy to track. <br /><br />
-        <u>What you can do:</u> <br />If you would like to share a memory from Fry's Electronics or even just a general memory from that era of technological tinkering and dreaming, you are welcome to submit a post in <a href="https://www.are.na/anastasia-davydova-lewis/savefrys-com">this channel on are.na</a>. I will then figure out how to publish everything on this website nicely.<br /><br />
-        <u>Why does the website look like this:</u> <br />I am emotional and it's hard to do everything at once, please bear with me as I am planning to make this website a beautiful memorial and celebration of what Frys has meant to everybody. For now please check out the discord for interactive experiences.
+        <div class="element">
+            <p>join our <a href="https://discord.gg/QyC92Q3kKj">discord</a></p>
+
+            <model-viewer src="robotkid/scene.gltf" alt="A 3D model of Fry's Electronics" auto-rotate camera-controls></model-viewer>
+
+        </div>
+
+        <div class="element">
+            <strong>FAQ:</strong><br />
+            About who we are: <br /> i am just a person who wants to preserve the cultural heritage of Fry’s Electronics. There is a community on <a href="https://discord.gg/QyC92Q3kKj">discord</a> that supports this goal and is helping with the process as well. We are just people who loved Fry's.
+            <br /><br />
+            <u>What is Fry's:</u> <br /> Fry's Electronics <strike>is</strike> <em>was</em> an iconic electronics store from the 90s that recently closed<br /><br />
+            <u>What are we saving:</u> <br /> the goal right now is to raise enough money to take the UFO off of the burbank Fry's building (aka store #11) and rescue it and put it somewhere safe as an iconic peice of LA history. If we can save other Fry's marketing and branding material we will, the goal is to attend the firesale auctions and pick up whatever we can afford<br /><br />
+            What will we do with the money if we can't accomplish our goal: <br /> for now I am keeping it very simple and linking an etherium wallet that I simply have available. If for whatever reason we cannot use the money to save Fry's cultural heritage we'll either send it back or pay it forward to a charity. I don't know right now how to be accountable for that except for the fact that everything is on the blockchain so it should be fairly easy to track. <br /><br />
+            <u>What you can do:</u> <br />If you would like to share a memory from Fry's Electronics or even just a general memory from that era of technological tinkering and dreaming, you are welcome to submit a post in <a href="https://www.are.na/anastasia-davydova-lewis/savefrys-com">this channel on are.na</a>. I will then figure out how to publish everything on this website nicely.<br /><br />
+            <u>Why does the website look like this:</u> <br />I am emotional and it's hard to do everything at once, please bear with me as I am planning to make this website a beautiful memorial and celebration of what Frys has meant to everybody. For now please check out the discord for interactive experiences.
+        </div>
+        <div class="element">
+            <h2> An Open Letter to Dave, John and Randy Fry:</h2>
+
+            I’m an artist who’s interested in preserving the UFO sculpture from the Fry’s Electronics Store #11 in Burbank, California.
+            <br><br>
+            I’ve heard that there are plans to demolish all the concrete exterior sculptures, and also that you are preserving all the interior sculptures for a personal museum. While I know these are all uncomfired rumors, they have gotten me worried about the outdoor sculptures.
+            <br><br>
+            I have a network in the museum industry, and could take care of the entire sculpture removal and preservation process, incl. providing real estate in the area to store it.
+            <br><br>
+            I must also say that I don’t have any personal drive to own or “take” the sculpture for myself: this effort is entirely about preserving the cultural history of Silicon Valley and California, which Fry’s has played a huge role in.
+            <br><br>
+            I realize that the closure process is incredibly challenging for you, your family and teammates. I want you to know that I’m only interested in making this all easier – not harder.
+            <br><br>
+            It would be really meaningful to the entire community to have a memorial symbol to commemorate the legacy of Fry’s Electronics.
+            <br><br>
+            Feel free to get in touch with me any time via email: xnastasia @ ucla dot edu
+            <br><br>
+            Sincerely, savefrys.com
+        </div>
     </div>
-    <div>
-        <h2> An Open Letter to Dave, John and Randy Fry:</h2>
 
-        I’m an artist who’s interested in preserving the UFO sculpture from the Fry’s Electronics Store #11 in Burbank, California.
-        <br><br>
-        I’ve heard that there are plans to demolish all the concrete exterior sculptures, and also that you are preserving all the interior sculptures for a personal museum. While I know these are all uncomfired rumors, they have gotten me worried about the outdoor sculptures.
-        <br><br>
-        I have a network in the museum industry, and could take care of the entire sculpture removal and preservation process, incl. providing real estate in the area to store it.
-        <br><br>
-        I must also say that I don’t have any personal drive to own or “take” the sculpture for myself: this effort is entirely about preserving the cultural history of Silicon Valley and California, which Fry’s has played a huge role in.
-        <br><br>
-        I realize that the closure process is incredibly challenging for you, your family and teammates. I want you to know that I’m only interested in making this all easier – not harder.
-        <br><br>
-        It would be really meaningful to the entire community to have a memorial symbol to commemorate the legacy of Fry’s Electronics.
-        <br><br>
-        Feel free to get in touch with me any time via email: xnastasia @ ucla dot edu
-        <br><br>
-        Sincerely, savefrys.com
-    </div>
 </body>
 
 </html>
