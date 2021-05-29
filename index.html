@@ -20,18 +20,36 @@
 
 <body>
     <div id="mainContainer">
+
         <div id="pageHeader">
-            <a href="https://savefrys.com/"><h1>SAVEFRYS.COM</h1></a>
-            <div id="searchBar">
-                <marquee>
-                    <b>Welcome to SaveFrys.com</b>
-                </marquee>
-           </div>
+
+            <div id="headerTop">
+                <!-- <span style="line-height:5px;">&nbsp;</span> -->
+                <div id="savefrysLogo"><a href="https://savefrys.com/">
+                        <h1>SAVEFRYS.COM</h1>
+                    </a></div>
+                <div id="searchBar">
+                    <marquee>
+                        <b>Welcome to SaveFrys.com</b>
+                    </marquee>
+                </div>
+                <div id="go">GO</div>
+            </div>
+            
+            <div class="navbar" style="width:1000px;">
+                <ul class="nav">
+                    <li class="navItem">Share your Fry's Story</li>
+                    <li class="navItem">SaveFry's Archive</li>
+                    <a href="https://discord.gg/QyC92Q3kKj"><li class="navItem">Discord Server</li></a>
+                    <li class="navItem" id="lastNavItem">Blog</li>
+                </ul>
+            </div>
+
 
         </div>
 
         <div class="element">
-            <p>join our <a href="https://discord.gg/QyC92Q3kKj">discord</a></p>
+            <p>join our discord</a></p>
 
             <model-viewer src="robotkid/scene.gltf" alt="A 3D model of Fry's Electronics" auto-rotate camera-controls></model-viewer>
 
