@@ -2,40 +2,99 @@
 
 body {
     background-image: url("img/plasticbag.png");
-    background-color: black;
+    background-color: #fff;
     background-size: cover;
     color: #000;
     margin: 0;
 
 }
 
-#mainContainer{
-    width:1000px;
-    margin:auto;
-        background-color: rgba(255,255,255,0.8);
+#mainContainer {
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
 
-    -webkit-box-shadow: 
+    -webkit-box-shadow:
         1em 0 1em -1em #ccc,
         -1em 0 1em -1em #ccc;
-    box-shadow: 
+    box-shadow:
         1em 0 1em -1em #ccc,
         -1em 0 1em -1em #ccc;
-        
+
 }
-#pageHeader{
-    height:125px;
+
+#pageHeader {
+    height: 125px;
+    margin: 0 auto;     
+}
+
+#headerTop {
+    height:50px;
+}
+
+#savefrysLogo {}
+
+#searchBar {
+    border: solid;
+    border-color: red;
+    max-width: 400px;
+    max-height: 30px;
+    float:left;
+    margin:0px 0px 0px 0px;
+    
+    display: inline-flex;
+}
+
+#Go {
+    background-color: red;
+    border: solid;
+    border-color: red;
     
 }
 
-marquee {
-    border: solid;
-    border-color: red;
+
+#searchBar marquee {
     background-color: #eee;
     max-width: 450px;
     max-height: 50px;
-        margin: auto;
+    margin: auto;
 }
 
+
+.navbar{
+      width:1000px;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#ee4a50),to(#be1b21));
+    background-image: linear-gradient(to bottom,#ee4a50,#be1b21);
+    background-repeat: repeat-x;
+  
+    
+    
+    
+}
+
+.nav{
+    list-style: none;
+    float:left;
+    position:relative;
+    left:0;
+    float:left;
+}
+
+.navItem{
+        background: linear-gradient(to bottom,rgba(238,74,80) 0,#be1b21 100%);
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+    color: #fff;
+    float:left;
+    line-height: 29px
+    
+}
+
+
+    
+}
 
 .center {
     max-width: 1000px;
@@ -58,10 +117,12 @@ h1 {
     font-family: 'a_love_of_thunderregular';
     font-weight: normal;
     font-style: normal;
-    font-size:3em;
+    font-size: 3em;
 }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
 .h1img {
     height: 40px;
