@@ -1,4 +1,4 @@
 # savefrys.com
 
 
-this is the readme
+Website repository for the Save Fry's cultural archiving project.

@@ -88,24 +88,27 @@ body {
     background: linear-gradient(to bottom, rgba(238, 74, 80) 0, #be1b21 100%);
     text-decoration: none;
     text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+    text-align: center;
     color: #fff;
     float: left;
     line-height: 29px;
     flex-grow: 1;
-    border-right-style: solid ;
+    border-right-style: solid;
+}
+
+#emptyNavItem {
+    flex-grow: 5;
 }
 
 #lastNavItem {
 
-    flex-grow: 4;
+
     float: right;
     border-right-style: solid 0px;
 
 }
 
 
-
-}
 
 .center {
     max-width: 1000px;
@@ -135,9 +138,6 @@ a {
     text-decoration: none;
 }
 
-.h1img {
-    height: 40px;
-}
 
 h2 {
     font-style: italic;
@@ -145,77 +145,5 @@ h2 {
     padding: 10px;
 }
 
-ul {
-    color: #ff8f8f;
-}
-
-a {
-    color: #2baeff;
-}
-
-
-blockquote {
-    font-family: Garamond, serif;
-    font-style: italic;
-}
-
-#hashExpand {
-    display: none;
-}
-
-#hashExpand:target {
-    display: block;
-}
-
-
-
-/* Navigation */
-
-nav {
-    height: 9rem;
-}
-
-/*this is for an ul*/
-.nav-list {
-    display: flex;
-}
-
-.nav-name {
-    font-size: 1.1rem;
-}
 
 .hover-img {}
-
-#icon-home {
-
-    font-size: 1.1rem;
-    max-width: 100px;
-}
-
-
-/* Draggable elements */
-
-.drag {
-    width: 600px;
-    height: 600px;
-    cursor: move;
-    position: absolute;
-    z-index: 1;
-}
-
-
-#mydiv {
-    position: absolute;
-    z-index: 9;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
-    text-align: center;
-}
-
-#mydivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 10;
-    background-color: #2196F3;
-    color: #fff;
-}

@@ -10,9 +10,6 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts.css" />
 
-
-
-    <script type="text/javascript" src="normal.js"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 
@@ -20,7 +17,7 @@
 
 <body>
     <div id="mainContainer">
-
+<br>
         <div id="pageHeader">
 
             <div id="headerTop">
@@ -41,6 +38,7 @@
                     <li class="navItem">Share your Fry's Story</li>
                     <li class="navItem">SaveFry's Archive</li>
                     <a href="https://discord.gg/QyC92Q3kKj"><li class="navItem">Discord Server</li></a>
+                    <li class="navItem" id="emptyNavItem"> </li>
                     <li class="navItem" id="lastNavItem">Blog</li>
                 </ul>
             </div>
@@ -49,9 +47,8 @@
         </div>
 
         <div class="element">
-            <p>join our discord</a></p>
+            <model-viewer loading="eager" src="robotkid/scene.gltf" alt="A 3D model of Fry's Electronics" autoplay min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 90deg 3.613m" min-field-of-view="54.01deg" max-field-of-view="auto" camera-controls camera-orbit="50deg 90deg 3.613m" auto-rotate></model-viewer>
 
-            <model-viewer src="robotkid/scene.gltf" alt="A 3D model of Fry's Electronics" auto-rotate camera-controls></model-viewer>
 
         </div>
 
