@@ -16,6 +16,7 @@ layout: default
   <!--input name="options[slug]" type="hidden" value="{{ page.slug }}" -->
   <label>Name<input name="fields[name]" type="text"></label><br/>
   <label>E-mail<input name="fields[email]" type="email"></label><br/>
+  <label>Store<input name="fields[store]" type="text"></label><br/>
   <label>Message<textarea name="fields[message]"></textarea></label><br/>
 
   <button type="submit">Go!</button>
