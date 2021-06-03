@@ -35,7 +35,7 @@ layout: default
         <strong>{{ comment[1].name }}</strong>
       </label>
       <p>{{ comment[1].message | markdownify }}</p>
-      <p>--------------------------------------</p>
+      <p style="text-align: center;">--------------------------------------</p>
   {% endfor %}
 {% endif %}
 </div>
