@@ -36,9 +36,6 @@ layout: default
     {% for comment in comments %}
       <label>
         <strong>{{ comment[1].name }}</strong>
-        {% if comment[1].url %}
-          </a>
-        {% endif %}
       </label>
       <p>{{ comment[1].message | markdownify }}</p>
       <p>--------------------------------------</p>
