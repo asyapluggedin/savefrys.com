@@ -10,7 +10,7 @@ body {
 }
 
 #mainContainer {
-    width: 1000px;
+    width: 75vw;
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
@@ -31,6 +31,38 @@ body {
     overflow: auto;
 }
 
+/* scroll bar */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: red;
+    box-shadow: inset 0 0 5px grey;
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+    border: 5px solid red;
+    box-shadow: inset 0 0 5px grey;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:active {
+    background: grey;
+    box-shadow: inset 0 0 5px #fff;
+
+}
+
 /* menu bar */
 
 #pageHeader {
@@ -40,7 +72,7 @@ body {
 
 #headerTop {
     height: 50px;
-    width: 1000px;
+    width: 75vw;
     display: inline-flex;
     align-items: center;
 }
@@ -85,7 +117,7 @@ body {
 .nav {
     list-style: none;
     display: flex;
-    padding:2px 5px;
+    padding: 2px 5px;
 
 }
 
@@ -157,7 +189,7 @@ img {
 
 .archiveSpan {
     text-align: center;
-    padding:0 0px;
+    padding: 0 0px;
 }
 
 model-viewer {
@@ -167,10 +199,11 @@ model-viewer {
     margin: 0 auto 10px auto;
     border: solid #000 2px;
     border-radius: 10px;
+   
 }
 
-iframe{
-    width: 69.5vw;
+iframe {
+    width: 60vw;
     height: 50vh;
     margin: 0 auto;
     border: solid #000 2px;
