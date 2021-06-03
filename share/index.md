@@ -21,11 +21,8 @@ layout: default
   <button type="submit">Go!</button>
 </form>
 </div>
-        </div>
-        <div class="element">
-            <h2>Other Stories</h2>
-
-<div markdown="0">
+<div class="element">
+<h2>Other Peoples Stories</h2>
 <!-- Comments -->
 {% if site.data.comments %}
     <h3>
