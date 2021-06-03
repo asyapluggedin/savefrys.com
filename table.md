@@ -1,3 +1,6 @@
+---
+# intentionally left blank
+---
 <!-- Comments -->
 {% if site.data.comments %}
     <h3>
