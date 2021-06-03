@@ -19,6 +19,7 @@ layout: default
         {% endif %}
       </label>
       <p>{{ comment[1].message | markdownify }}</p>
+      <p>--------------------------------------</p>
   {% endfor %}
 {% endif %}
 </div>
