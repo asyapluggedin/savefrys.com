@@ -19,7 +19,7 @@ layout: default
   <label>Store<input name="fields[store]" type="text"></label><br/>
   <label>Message<textarea name="fields[message]"></textarea></label><br/>
 
-  <button type="submit">Go!</button>
+  <button type="submit">Send!</button>
 </form>
 </div>
 <div class="element">
