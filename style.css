@@ -79,6 +79,8 @@ body {
 
 .navbar {
     width: 1000px;
+    border-radius: 10px;
+    padding: 0px 30px 0px 0px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ee4a50), to(#be1b21));
     background-image: linear-gradient(to bottom, #ee4a50, #be1b21);
     background-repeat: repeat-x;
@@ -122,12 +124,16 @@ body {
     max-width: 70vw;
     padding: 5px 10px;
     margin: 20px 0px;
-        border: solid red;
+    border: solid red;
     background-color: #fff;
+}
 
-
-
-
+.story-1 {
+    width: 20vw;
+    height: 20vw;
+    margin: 20px 0px;
+    border: solid red;
+    background-color: yellow;
 }
 
 img {
@@ -151,3 +157,12 @@ h2 {
 
 
 .hover-img {}
+
+model-viewer {
+
+    width: 925px;
+    height: 600px;
+    margin: 0 auto 10px auto;
+    border: solid #000 2px;
+    border-radius: 10px;
+}
