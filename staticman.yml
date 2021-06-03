@@ -1,0 +1,11 @@
+comments:
+  allowedFields: ["name", "email", "message"]
+  branch: "github-pages"
+  commitMessage: "comment!"
+  filename: "entries-{@timestamp}" 
+  format: "yaml"
+  name: "savefrys.com"
+  path: "_data/comments"
+  moderation: false
+  requiredFields: ["name", "email", "message"]
+
