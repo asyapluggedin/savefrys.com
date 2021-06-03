@@ -10,7 +10,7 @@ layout: default
 <div class="element">
 <h2>Share Your Story</h2>
 
-<form method="POST" action="https://savefrys.herokuapp.com/v3/entry/github/xnastasia/savefrys.com/github-pages/comments">
+<form method="POST" action="https://savefrys.herokuapp.com/v3/entry/github/xnastasia/savefrys.com/main/comments">
   <input name="options[redirect]" type="hidden" value="https://savefrys.com/share">
   <!-- e.g. "2016-01-02-this-is-a-post"
   <!--input name="options[slug]" type="hidden" value="{{ page.slug }}" -->
