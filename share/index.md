@@ -16,6 +16,7 @@ layout: default
   <!--input name="options[slug]" type="hidden" value="{{ page.slug }}" -->
   <label>Name<input name="fields[name]" type="text"></label><br/>
   <label>E-mail<input name="fields[email]" type="email"></label><br/>
+  <label>Store<input name="fields[store]" type="text"></label><br/>
   <label>Message<textarea name="fields[message]"></textarea></label><br/>
 
   <button type="submit">Go!</button>
@@ -24,20 +25,14 @@ layout: default
 <div class="element">
 <h2>Other Peoples Stories</h2>
 <!-- Comments -->
+  
+  <!-- TODO: I have to make it sort by most recent not by most old. Also add time and date stamp thanks -->
+
 {% if site.data.comments %}
-    <h3>
-    {% if site.data.comments.size > 1 %}
-      {{ site.data.comments | size }}
-    {% endif %}
-    Comments:
-    </h3>
   {% assign comments = site.data.comments | sort %}
     {% for comment in comments %}
       <label>
         <strong>{{ comment[1].name }}</strong>
-        {% if comment[1].url %}
-          </a>
-        {% endif %}
       </label>
       <p>{{ comment[1].message | markdownify }}</p>
       <p>--------------------------------------</p>

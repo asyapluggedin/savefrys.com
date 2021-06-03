@@ -1,5 +1,5 @@
 comments:
-  allowedFields: ["name", "email", "message"]
+  allowedFields: ["name", "email", "store", "message"]
   branch: "main"
   commitMessage: "comment!"
   filename: "entries-{@timestamp}" 
@@ -7,5 +7,5 @@ comments:
   name: "savefrys.com"
   path: "_data/comments"
   moderation: false
-  requiredFields: ["name", "email", "message"]
+  requiredFields: ["name", "store", "message"]
 
