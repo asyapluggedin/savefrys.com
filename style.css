@@ -7,7 +7,6 @@ body {
     color: #000;
     margin: 0;
     overflow: hidden;
-
 }
 
 #mainContainer {
@@ -30,7 +29,6 @@ body {
     left: 0;
     right: 0;
     overflow: auto;
-
 }
 
 #pageHeader {
@@ -45,6 +43,7 @@ body {
     align-items: center;
 }
 
+
 #savefrysLogo a {
     text-decoration: none;
 }
@@ -53,7 +52,6 @@ body {
     border: solid red;
     max-width: 400px;
     line-height: 22px;
-
     float: left;
     margin: 0px 0px 0px 0px;
 
@@ -65,7 +63,6 @@ body {
     background-color: red;
     line-height: 28px;
     padding: auto 10px;
-
 }
 
 
@@ -84,7 +81,6 @@ body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ee4a50), to(#be1b21));
     background-image: linear-gradient(to bottom, #ee4a50, #be1b21);
     background-repeat: repeat-x;
-
 }
 
 .nav {
@@ -112,8 +108,6 @@ body {
 }
 
 #lastNavItem {}
-
-
 
 .center {
     max-width: 1000px;
@@ -156,13 +150,11 @@ h1 {
     font-size: 3em;
 }
 
-
 h2 {
     font-style: italic;
     color: red;
     padding: 10px;
 }
-
 
 .hover-img {}
 
