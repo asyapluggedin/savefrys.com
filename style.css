@@ -6,6 +6,7 @@ body {
     background-size: cover;
     color: #000;
     margin: 0;
+    overflow: hidden;
 
 }
 
@@ -23,6 +24,13 @@ body {
         1em 0 1em -1em #ccc,
         -1em 0 1em -1em #ccc;
 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+
 }
 
 #pageHeader {
@@ -37,13 +45,15 @@ body {
     align-items: center;
 }
 
-#savefrysLogo {}
+#savefrysLogo a {
+    text-decoration: none;
+}
 
 #searchBar {
-    border: solid;
-    border-color: red;
+    border: solid red;
     max-width: 400px;
-    max-height: 30px;
+    line-height: 22px;
+
     float: left;
     margin: 0px 0px 0px 0px;
 
@@ -51,10 +61,10 @@ body {
 }
 
 #go {
-    border: solid;
-    border-color: red;
+    border: solid red;
     background-color: red;
-    max-width: 20px;
+    line-height: 28px;
+    padding: auto 10px;
 
 }
 
@@ -73,9 +83,6 @@ body {
     background-image: linear-gradient(to bottom, #ee4a50, #be1b21);
     background-repeat: repeat-x;
 
-
-
-
 }
 
 .nav {
@@ -85,28 +92,24 @@ body {
 }
 
 .navItem {
-    background: linear-gradient(to bottom, rgba(238, 74, 80) 0, #be1b21 100%);
+    /* background: linear-gradient(to bottom, rgba(238, 74, 80) 0, #be1b21 100%); */
+    background: #fff;
     text-decoration: none;
     text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
     text-align: center;
-    color: #fff;
-    float: left;
+    color: ##000;
     line-height: 29px;
     flex-grow: 1;
-    border-right-style: solid;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 5px 2.5px;
 }
 
 #emptyNavItem {
     flex-grow: 5;
 }
 
-#lastNavItem {
-
-
-    float: right;
-    border-right-style: solid 0px;
-
-}
+#lastNavItem {}
 
 
 
@@ -117,7 +120,12 @@ body {
 
 .element {
     max-width: 70vw;
-    padding: 10px;
+    padding: 5px 10px;
+    margin: 20px 0px;
+        border: solid red;
+    background-color: #fff;
+
+
 
 
 }
@@ -132,10 +140,6 @@ h1 {
     font-weight: normal;
     font-style: normal;
     font-size: 3em;
-}
-
-a {
-    text-decoration: none;
 }
 
 
