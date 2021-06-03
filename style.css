@@ -161,7 +161,11 @@ h2 {
     padding: 10px;
 }
 
-h3 {}
+h3 { font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+    padding: 10px;}
 
 
 .center {
