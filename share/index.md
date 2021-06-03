@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+
+
 <br>
-        <!-- Navigation -->
+<!-- Navigation -->
 <a id="ddmenuLink" href="../menuBar.html"></a>
 
         <div class="element">
@@ -45,5 +47,6 @@ layout: default
   {% endfor %}
 {% endif %}
 </div>
- </div>
+
+</div>
 
