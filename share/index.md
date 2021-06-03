@@ -5,11 +5,11 @@ layout: default
 
 <br>
 <!-- Navigation -->
-<a id="ddmenuLink" href="../menuBar.html"></a>
-
-        <div class="element">
-            <h2>Share Your Story</h2>
 <div markdown="0">
+<a id="ddmenuLink" href="../menuBar.html"></a>
+<div class="element">
+<h2>Share Your Story</h2>
+
 <form method="POST" action="https://savefrys.herokuapp.com/v3/entry/github/mocsabnimajneb/savefrys.com/github-pages/comments">
   <!-- e.g. "2016-01-02-this-is-a-post"
   <!--input name="options[slug]" type="hidden" value="{{ page.slug }}" -->
