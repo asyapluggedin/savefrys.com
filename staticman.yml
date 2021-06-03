@@ -1,6 +1,6 @@
 comments:
   allowedFields: ["name", "email", "message"]
-  branch: "github-pages"
+  branch: "main"
   commitMessage: "comment!"
   filename: "entries-{@timestamp}" 
   format: "yaml"
