@@ -122,20 +122,11 @@ body {
     background-color: #fff;
 }
 
-.story-1 {
+.story {
     width: 20vw;
     height: 20vw;
     margin: 20px 0px;
     border: solid red;
-    background-color: yellow;
-}
-
-.story-11 {
-    width: 20vw;
-    height: 20vw;
-    margin: 20px 0px;
-    border: solid red;
-    background-color: green;
 }
 
 img {
