@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div markdown="0">
 <!-- Comments -->
 {% if site.data.comments %}
     <h3>
@@ -20,3 +21,4 @@ layout: default
       <p>{{ comment[1].message | markdownify }}</p>
   {% endfor %}
 {% endif %}
+</div>
