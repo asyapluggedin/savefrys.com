@@ -26,12 +26,6 @@ layout: default
 <h2>Other Peoples Stories</h2>
 <!-- Comments -->
 {% if site.data.comments %}
-    <h3>
-    {% if site.data.comments.size > 1 %}
-      {{ site.data.comments | size }}
-    {% endif %}
-    Comments:
-    </h3>
   {% assign comments = site.data.comments | sort %}
     {% for comment in comments %}
       <label>
