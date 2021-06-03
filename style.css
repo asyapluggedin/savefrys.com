@@ -136,6 +136,14 @@ body {
     background-color: yellow;
 }
 
+.story-11 {
+    width: 20vw;
+    height: 20vw;
+    margin: 20px 0px;
+    border: solid red;
+    background-color: green;
+}
+
 img {
     max-width: 600px;
 }
