@@ -25,6 +25,9 @@ layout: default
 <div class="element">
 <h2>Other Peoples Stories</h2>
 <!-- Comments -->
+  
+  <!-- I have to make it sort by most recent not by most old. Also add time and date stamp thanks -->
+
 {% if site.data.comments %}
   {% assign comments = site.data.comments | sort %}
     {% for comment in comments %}
