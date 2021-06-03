@@ -1,5 +1,5 @@
 ---
-# intentionally left blank
+layout: default
 ---
 <!-- Comments -->
 {% if site.data.comments %}
