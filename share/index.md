@@ -32,7 +32,7 @@ layout: default
 {% if site.data.comments %}
   {% assign comments = site.data.comments | sort %}
     {% for comment in comments %}
-      <div class="story"><label>
+      <div class=""><label>
         <strong>{{ comment[1].name }}</strong>
       </label>
       <p>{{ comment[1].message | markdownify }}</p>
