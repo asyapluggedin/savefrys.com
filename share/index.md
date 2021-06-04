@@ -14,12 +14,13 @@ layout: default
   <input name="options[redirect]" type="hidden" value="https://savefrys.com/share">
   <!-- e.g. "2016-01-02-this-is-a-post"
   <!--input name="options[slug]" type="hidden" value="{{ page.slug }}" -->
-  <label>Name<input name="fields[name]" type="text"></label><br/>
+  <div class="story"><label>Name<input name="fields[name]" type="text"></label><br/>
   <label>E-mail<input name="fields[email]" type="email"></label><br/>
   <label>Store<input name="fields[store]" type="text"></label><br/>
   <label>Message<textarea name="fields[message]"></textarea></label><br/>
 
   <button type="submit">Send!</button>
+  </div>
 </form>
 </div>
 <div class="element">

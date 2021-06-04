@@ -213,7 +213,8 @@ img {
     width: 20vw;
     height: 20vw;
     margin: 20px 0px;
-    border: solid red;
+    padding: 10px;
+    border: solid orange;
 }
 
 /* Archive */
