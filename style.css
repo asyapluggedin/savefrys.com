@@ -146,11 +146,20 @@ body {
 /* text styles */
 
 h1 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: red;
+    padding: 10px;
+}
+
+#savefrysLogo h1 {
     color: red;
     font-family: 'a_love_of_thunderregular';
     font-weight: normal;
     font-style: normal;
     font-size: 3em;
+    padding: none;
 }
 
 h2 {
@@ -166,6 +175,20 @@ h3 { font-family: aktiv-grotesk, sans-serif;
     font-style: italic;
     color: black;
     padding: 10px;}
+
+h4 {
+    
+}
+
+h5{}
+
+h6{}
+
+.element p {
+    margin: 0%;
+}
+
+
 
 
 .center {
@@ -198,6 +221,7 @@ img {
 .archiveSpan {
     text-align: center;
     padding: 0 0px;
+    
 }
 
 model-viewer {
