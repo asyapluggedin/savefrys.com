@@ -32,13 +32,14 @@ layout: default
 {% if site.data.comments %}
   {% assign comments = site.data.comments | sort %}
     {% for comment in comments %}
-      <label>
+      <div class="story"><label>
         <strong>{{ comment[1].name }}</strong>
       </label>
       <p>{{ comment[1].message | markdownify }}</p>
       <p style="text-align: center;">--------------------------------------</p>
   {% endfor %}
 {% endif %}
+    </div>
 </div>
 
 </div>
