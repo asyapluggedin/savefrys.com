@@ -1,0 +1,59 @@
+ maintitle {
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        p.title {
+            position: relative;
+            left: 10px;
+            top: 0px;
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        DIV.datasetname {
+            font-family: Verdana, Geneva, sans-serif;
+            text-align: center;
+            padding: 0em 0.5em;
+            height: 1.4em;
+            background-color: #FFF;
+            border-color: #000;
+            border-style: solid;
+            border-width: thin;
+            font-size: 14px;
+            cursor: move;
+        }
+
+        DIV.dropbox {
+            height: 1.8em;
+            width: inherit;
+            z-index: 2;
+            background-color: #FF3;
+            border-color: #000;
+            border-style: solid;
+            border-width: thin;
+        }
+
+        #title p {
+            font-size: 36px;
+            top: 0px;
+        }
+
+        #apDiv1 {
+            position: absolute;
+            left: 49px;
+            top: 21px;
+            width: 107px;
+            height: 55px;
+            z-index: 3;
+        }
+
+        #document {
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        #GAME {
+            position: absolute;
+            width: 65vw;
+            background-color: #f3f3f3;
+            border: 2px solid #000;

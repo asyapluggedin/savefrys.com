@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Save Frys – Memorial Game</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../fonts.css" />
+    <link rel="stylesheet" href="../css/game.css" />
+    <link rel="stylesheet" href="../css/frysgame.css" />
+
+    <script src="../js/ddmenu.js" type="text/javascript"></script>
+    <script src="../js/game.js" type="text/javascript"></script>
+    <script src="../js/frysGame.js" type="text/javascript"></script>
+    <script src="../js/window.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <br>
+        <!-- Navigation -->
+        <a id="ddmenuLink" href="../menuBar.html"></a>
+
+
+
+
+        <div class="element">
+            <h1>Game</h1>
+            <p>I will make a game here soon, where you can test your knowledge of the store names and store themes. For now, check out the dedicated channels in our Discord server!</p><br><br><br>
+
+        </div>
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- FRYS GAME BOX ---------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------->
+        <div class="element" style="height:644px;">
+
+            <div id="cow1" style="position:absolute; left:-500px; top:655px;  z-index:20; visibility:hidden;"><img src="game_files/cow1.png"></div>
+            <div id="cow2" style="position:absolute; left:-500px; top:655px;  z-index:20; visibility:hidden;"><img src="game_files/cow2.png"></div>
+
+            <div id="frysGame" onMouseUp="computeScore();">
+                <!--
+                <div id="Layer4" style="position:absolute; left:100px; top:5px; z-index:3"><img src="game_files/gametitle.png" alt="Name that FRYS ELECTRONICS!"></div>
+                -->
+
+                <div id="gameHeader">
+                    <img src="game_files/gametitle.png" alt="Name that FRYS ELECTRONICS!">
+                    <div>
+                        <p>Can you match the store's theme with it's location? Drag the location names into the yellow boxes bellow each set of images. <strong>The score will appear once you have placed the 12 location names.</strong></p>
+                    </div>
+                </div>
+
+
+<div id="gameImages">
+                <div id="image1">
+                    <img src="game_files/dataset1.png" height="48">
+                    <div id="drop1" class="dropbox"></div>
+                </div>
+
+                <div id="image2">
+                    <img src="game_files/dataset2.png" height="48">
+                    <div id="drop2" class="dropbox"></div>
+                </div>
+
+                <div id="image3">
+                    <img src="game_files/dataset3.png" height="48">
+                    <div id="drop3" class="dropbox"></div>
+                </div>
+
+                <div id="image4">
+                    <img src="game_files/dataset4.png" height="48">
+                    <div id="drop4" class="dropbox"></div>
+                </div>
+
+                <div id="image5">
+                    <img src="game_files/dataset5.png" height="48">
+                    <div id="drop5" class="dropbox"></div>
+                </div>
+
+                <div id="image6">
+                    <img src="game_files/dataset6.png" height="48">
+                    <div id="drop6" class="dropbox"></div>
+                </div>
+
+                <div id="image7">
+                    <img src="game_files/dataset7.png" height="48">
+                    <div id="drop7" class="dropbox"></div>
+                </div>
+
+                <div id="image8">
+                    <img src="game_files/dataset8.png" height="48">
+                    <div id="drop8" class="dropbox"></div>
+                </div>
+
+                <div id="image9" style="position:absolute; left:382px; z-index:2; top: 247px; width:175px;">
+                    <img src="game_files/dataset9.png" height="48">
+                    <div id="drop9" class="dropbox"></div>
+                </div>
+
+                <div id="image10">
+                    <img src="game_files/dataset10.png" height="48">
+                    <div id="drop10" class="dropbox"></div>
+                </div>
+
+                <div id="image11">
+                    <img src="game_files/dataset11.png" height="48">
+                    <div id="drop11" class="dropbox"></div>
+                </div>
+
+                <div id="image12">
+                    <img src="game_files/dataset12.png" height="48">
+                    <div id="drop12" class="dropbox"></div>
+                </div>
+                </div>
+
+                <strong>
+                    Drag and drop each store name on the yellow boxes
+                </strong>
+            </div>
+
+            <div id="name1" class="imagename" onMouseDown="dragStart(event, 'name1')">
+                <p onMouseDown="dragStart(event, 'name1')">Burbank #11</p>
+            </div>
+            
+            <div id="name11" class="imagename" onMouseDown="dragStart(event, 'name11')">
+                <p onMouseDown="dragStart(event, 'name11')">San Marcos #25</p>
+            </div>
+            
+            <div id="name3" class="imagename" onMouseDown="dragStart(event, 'name3')">
+                <p onMouseDown="dragStart(event, 'name3')">Palo Alto #3</p>
+            </div>
+            <div id="name2" class="imagename"  onMouseDown="dragStart(event, 'name2')">
+                <p  onMouseDown="dragStart(event, 'name2')">Houston #23</p>
+            </div>
+            <div id="name4" class="imagename"  onMouseDown="dragStart(event, 'name4')">
+                <p  onMouseDown="dragStart(event, 'name4')">Fremont #21</p>
+            </div>
+            <div id="name10" class="imagename"  onMouseDown="dragStart(event, 'name10')">
+                <p onMouseDown="dragStart(event, 'name10')">Sunnyvale #1</p>
+            </div>
+            <div id="name6" class="imagename"  onMouseDown="dragStart(event, 'name6')">
+                <p  onMouseDown="dragStart(event, 'name6')">San Diego #15</p>
+            </div>
+            <div id="name7" class="imagename"  onMouseDown="dragStart(event, 'name7')">
+                <p  onMouseDown="dragStart(event, 'name7')">Manhattan Beach #5</p>
+            </div>
+            <div id="name12" class="imagename"  onMouseDown="dragStart(event, 'name12')">
+                <p  onMouseDown="dragStart(event, 'name12')">Las Vegas #27</p>
+            </div>
+            <div id="name5" class="imagename"  onMouseDown="dragStart(event, 'name5')">
+                <p  onMouseDown="dragStart(event, 'name5')">City of Industry #28</p>
+            </div>
+            <div id="name9" class="imagename"  onMouseDown="dragStart(event, 'name9')">
+                <p  onMouseDown="dragStart(event, 'name9')">Dallas #18</p>
+            </div>
+            <div id="name8" class="imagename"  onMouseDown="dragStart(event, 'name8')">
+                <p onMouseDown="dragStart(event, 'name8')">San Jose #9</p>
+            </div>
+
+            <!-- SCORE -->
+            <div id="score" style="position:absolute; z-index:2; top: 578px; width:100%; text-align:center; font-size: 36px;">
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- GAME BOX ---------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+        <div class="element" style="height:644px;">
+
+            <div id="cow1" style="position:absolute; left:-500px; top:655px;  z-index:20; visibility:hidden;"><img src="game_files/cow1.png"></div>
+            <div id="cow2" style="position:absolute; left:-500px; top:655px;  z-index:20; visibility:hidden;"><img src="game_files/cow2.png"></div>
+
+            <div id="GAME" onMouseUp="computeScore();">
+
+                <div><img src="game_files/gametitle.png" alt="Name that FRYS ELECTRONICS!"></div>
+                <div>Can you match the store's theme with it's location? Drag the location names into the yellow boxes bellow each set of images. <strong>The score will appear once you have placed the 12 location names.</strong></div>
+
+                
+                
+                <div id="dataset1" style="position:absolute; left:228px; top: 422px; width:122px;">
+                    <img src="game_files/dataset1.png" height="48">
+                    <div id="drop1" class="dropbox"></div>
+                </div>
+
+                <div id="dataset2" style="position:absolute; left:392px; z-index:2; top: 161px;  width:164px;">
+                    <img src="game_files/dataset2.png" height="48">
+                    <div id="drop2" class="dropbox"></div>
+                </div>
+
+                <div id="dataset3" style="position:absolute; left:6px; z-index:2; top: 161px;  width:192px;">
+                    <img src="game_files/dataset3.png" height="48">
+                    <div id="drop3" class="dropbox"></div>
+                </div>
+
+                <div id="dataset4" style="position:absolute; left:6px; z-index:2; top: 336px; width:185px;">
+                    <img src="game_files/dataset4.png" height="48">
+                    <div id="drop4" class="dropbox"></div>
+                </div>
+
+                <div id="dataset5" style="position:absolute; left:208px; z-index:2; top: 161px;  width:174px;">
+                    <img src="game_files/dataset5.png" height="48">
+                    <div id="drop5" class="dropbox"></div>
+                </div>
+
+                <div id="dataset6" style="position:absolute; left:7px; z-index:2; top: 247px; width:166px;">
+                    <img src="game_files/dataset6.png" height="48">
+                    <div id="drop6" class="dropbox"></div>
+                </div>
+
+                <div id="dataset7" style="position:absolute; left:364px; z-index:2; top: 421px; width:194px;">
+                    <img src="game_files/dataset7.png" height="48">
+                    <div id="drop7" class="dropbox"></div>
+                </div>
+
+                <div id="dataset8" style="position:absolute; left:365px; z-index:2; top: 334px; width:190px;">
+                    <img src="game_files/dataset8.png" height="48">
+                    <div id="drop8" class="dropbox"></div>
+                </div>
+
+                <div id="dataset9" style="position:absolute; left:382px; z-index:2; top: 247px; width:175px;">
+                    <img src="game_files/dataset9.png" height="48">
+                    <div id="drop9" class="dropbox"></div>
+                </div>
+
+                <div id="dataset10" style="position:absolute; left:6px; z-index:2; top: 422px; width:206px;">
+                    <img src="game_files/dataset10.png" height="48">
+                    <div id="drop10" class="dropbox"></div>
+                </div>
+
+                <div id="dataset11" style="position:absolute; left:186px; z-index:2; top: 247px; width:187px;">
+                    <img src="game_files/dataset11.png" height="48">
+                    <div id="drop11" class="dropbox"></div>
+                </div>
+
+                <div id="dataset12" style="position:absolute; left:201px; z-index:2; top: 335px; width:153px;">
+                    <img src="game_files/dataset12.png" height="48">
+                    <div id="drop12" class="dropbox"></div>
+                </div>
+
+                <div id="instructions" style="position:absolute; left:104px; z-index:2; top: 514px; width: 386px;"><strong>
+                        Drag and drop each dataset name on the yellow boxes
+                    </strong></div>
+
+                <div id="name1" class="datasetname" style="position:absolute; left:22px; top:543px; font-family: Verdana, Geneva, sans-serif;" onMouseDown="dragStart(event, 'name1')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name1')">Burbank #11</p>
+                </div>
+                <div id="name11" class="datasetname" style="position:absolute; left:155px; top:543px;" onMouseDown="dragStart(event, 'name11')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name11')">San Marcos #25</p>
+                </div>
+                <div id="name3" class="datasetname" style="position:absolute; left:292px; top:543px;" onMouseDown="dragStart(event, 'name3')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name3')">Palo Alto #3</p>
+                </div>
+                <div id="name2" class="datasetname" style="position:absolute; left:430px; top:542px;" onMouseDown="dragStart(event, 'name2')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name2')">Houston #23</p>
+                </div>
+                <div id="name4" class="datasetname" style="position:absolute; left:22px; top:572px;" onMouseDown="dragStart(event, 'name4')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name4')">Fremont #21</p>
+                </div>
+                <div id="name10" class="datasetname" style="position:absolute; left:155px; top:572px;" onMouseDown="dragStart(event, 'name10')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name10')">Sunnyvale #1</p>
+                </div>
+                <div id="name6" class="datasetname" style="position:absolute; left:292px; top:571px;" onMouseDown="dragStart(event, 'name6')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name6')">San Diego #15</p>
+                </div>
+                <div id="name7" class="datasetname" style="position:absolute; left:430px; top:570px;" onMouseDown="dragStart(event, 'name7')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name7')">Manhattan Beach #5</p>
+                </div>
+                <div id="name12" class="datasetname" style="position:absolute; left:22px; top:601px;" onMouseDown="dragStart(event, 'name12')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name12')">Las Vegas #27</p>
+                </div>
+                <div id="name5" class="datasetname" style="position:absolute; left:155px; top:602px;" onMouseDown="dragStart(event, 'name5')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name5')">City of Industry #28</p>
+                </div>
+                <div id="name9" class="datasetname" style="position:absolute; left:292px; top:601px;" onMouseDown="dragStart(event, 'name9')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name9')">Dallas #18</p>
+                </div>
+                <div id="name8" class="datasetname" style="position:absolute; left:430px; top:600px;" onMouseDown="dragStart(event, 'name8')">
+                    <p style="vertical-align:top; margin-top:0px" onMouseDown="dragStart(event, 'name8')">San Jose #9</p>
+                </div>
+
+                <!-- SCORE 
+                <div id="score" style="position:absolute; z-index:2; top: 578px; width:100%; text-align:center; font-size: 36px;">
+                </div>
+
+------------------------>
+
+    </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

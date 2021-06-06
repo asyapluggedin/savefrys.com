@@ -118,16 +118,20 @@ body {
     list-style: none;
     display: flex;
     padding: 2px 5px;
-
 }
 
+.nav a {
+     font-family: aktiv-grotesk, sans-serif;
+    font-size:0.9em;
+    text-decoration: none;
+    color: red;
+    padding:0px 5px;
+}
 .navItem {
     /* background: linear-gradient(to bottom, rgba(238, 74, 80) 0, #be1b21 100%); */
     background: #fff;
-    text-decoration: none;
     text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
     text-align: center;
-    color: #000;
     line-height: 29px;
     flex-grow: 1;
     border: solid 1px black;

@@ -27,7 +27,7 @@ layout: default
 <h2>Other Peoples Stories</h2>
 <!-- Comments -->
   
-  <!-- TODO: I have to make it sort by most recent not by most old. Also add time and date stamp thanks -->
+  <!-- TODO: Make it sort by most recent not by most old. Also add time and date stamp -->
 
 {% if site.data.comments %}
   {% assign comments = site.data.comments | sort %}
