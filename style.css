@@ -181,7 +181,7 @@ h3 { font-family: aktiv-grotesk, sans-serif;
     padding: 10px;}
 
 h4 {
-    
+
 }
 
 h5{}
@@ -189,7 +189,7 @@ h5{}
 h6{}
 
 .element p {
-  
+
 }
 
 
@@ -226,7 +226,6 @@ img {
 .archiveSpan {
     text-align: center;
     padding: 0 0px;
-    
 }
 
 model-viewer {
@@ -236,7 +235,6 @@ model-viewer {
     margin: 0 auto 10px auto;
     border: solid #000 2px;
     border-radius: 10px;
-   
 }
 
 iframe {
